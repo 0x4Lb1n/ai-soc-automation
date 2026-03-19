@@ -4,9 +4,6 @@ This project demonstrates an AI-driven Security Operations Center (SOC) automati
 
 The system integrates SIEM, Threat Intelligence, AI analysis, and SOAR-like automation to simulate a real-world SOC workflow.
 
-⚙️ Architecture
-
-
 
 🔄 Workflow
 
@@ -33,20 +30,30 @@ Analyst chooses:
 ❌ Ignore → no action taken
 
 
+
+
+
 📸 Screenshots
 
+⚙️ Architecture
+
+![Architecture Diagram](screenshots/architecture.png)
 
 🚨 Alert with AI Analysis
 
+![Alert](screenshots/telegram-alert.png)
 
 ✅ Block Action
 
+![Block](screenshots/block-action.png)
 
 ❌ Ignore Action
 
+![ignore](screenshots/ignore-action.png)
 
 🔐 Firewall Enforcement
 
+![firewall](screenshots/firewall-proof.png)
 
 🧠 Features
 
