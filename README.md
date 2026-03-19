@@ -30,7 +30,23 @@ Analyst chooses:
 ❌ Ignore → no action taken
 
 
+🐍 Wazuh → n8n Alert Forwarding Script
 
+A Python script is used to simulate or forward Wazuh alerts to the n8n webhook.
+
+📄 View the script here:
+👉 [send_alert.py](send_alert.py)
+
+ 📌 What it does:
+
+* Sends alert data (rule, source IP, severity) to n8n
+* Triggers the SOC automation workflow
+* Useful for testing and simulation
+
+ ▶️ Usage
+
+pip install requests
+python3 scripts/send_alert.py
 
 
 📸 Screenshots
