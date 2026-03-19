@@ -46,6 +46,7 @@ A Python script is used to simulate or forward Wazuh alerts to the n8n webhook.
  ▶️ Usage
 
 pip install requests
+
 python3 scripts/send_alert.py
 
 
